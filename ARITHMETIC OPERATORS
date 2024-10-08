@@ -1,0 +1,25 @@
+import java.io.*;
+class ArithmeticOperator
+{
+  public static void main(String args[]);
+  {
+    int n1=20,n2=10,add,sub,mul,div,mod;
+    System.out.println("Number1 = " +n1);
+    System.out.println("Number2 = " +n2);
+
+    add = n1+n2;
+    System.out.println("Addition : " +add);
+
+    sub = n1-n2;
+    System.out.println("Subtraction : " +sub);
+
+    mul = n1*n2;
+    System.out.println("Multiplication : " +mul);
+
+    div = n1/n2;
+    System.out.println("Division : " +div);
+
+    mod = n1%n2;
+    System.out.println("Modulo : " +mod);
+  }
+}
